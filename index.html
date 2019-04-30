@@ -1,280 +1,481 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Intact International</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<!DOCTYPE html>
+<html lang="en">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+<head>
 
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="css/main.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    <nav id="sidenav" class="hide-side" role="navigation">
-      <ul class=sidenav-list>
-        <li><a href="#header">Home</a></li>
-        <li><a href="#how-it-works">How It Works</a></li>
-        <li><a href="#benefits">Benefits</a></li>
-        <li><a href="#about-us">About Us</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-      </ul>
-    </nav>
-      
-    <button type="button" class="sidenav-toggle" data-toggle="" data-target="#sidenav" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar top-bar"></span>
-        <span class="icon-bar middle-bar"></span>
-        <span class="icon-bar bottom-bar"></span>
-      </button>
+    <title>Bob O'Brien | Web Development and Design</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="assets/css/custom.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,600,300italic,400italic,600italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<body id="page-top">
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
     </div>
 
+    <!-- HERO -->               
+    <section id="hero" class="header-image intro" >
+    	<div class="intro-overlay"></div>
+
+        <div class="intro-content animate fadeInUp">
+
+        	<div class="container">
+
+            	<div class="col-sm-8 col-sm-offset-2">
+
+                    <h1>Hi there! I'm Bob.</h1> 
+                    <h1>I develop creative, personalized solutions for your trickiest web problems.</h1>
+                     <a class="btn btn-lg btn-fly page-scroll" href="#contact-us">Work with me</a>
+                    
+
+                </div> <!-- cols m --> 
+            </div> <!-- container -->
+        </div> <!-- intro-content -->
+                        
+    </section><!--end hero section--> 
 
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <section id="header">
-      <div class="header">
-        <div class="header-overlay"></div>
-        <div class="container text-uppercase header-text text-center">
-          <h1 class="xl-text">Intact, LLC</h1>
-          <h3 class=" subtext">If you don't save, you don't pay</h3>
-        </div>
-      </div>
+<!--HEADER -->
+    <header class="site-header header" role="banner">
+
+        <!--NAVBAR
+        =========================================== -->
+        <nav class="navbar-wrapper">
+
+            <div class="navbar navbar-default " role="navigation">
+
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                         <a href="#hero" class="navbar-brand page-scroll"><img src="assets/img/logo.png" id="brand" alt="Bob O'Brien Web Development"></a> 
+                    </div><!--end navbar header-->
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#services" class="page-scroll">Services</a></li>
+                            <li><a href="#portfolio" class="page-scroll">Work</a></li>
+                            <li><a href="#testimonials" class="page-scroll">Clients</a></li>
+                            <li><a href="#contact-us" class="page-scroll">Contact</a></li>
+                        </ul><!--nav-->
+
+                    </div><!--end navbar collapse-->
+
+                </div><!--navbar-->
+
+            </div><!--container-->
+
+        </nav><!--end navbar wrapper-->
+
+
+    </header>
+
+    <!-- SERVICES -->
+    <section id="services" class="section-wrapper background-pattern services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Services</h2>
+                <p class="lead">What I can do for you</p>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4 class="services-header">Responsive Designs</h4>
+                </div><!--  colsm6 -->
+                    <div class="col-sm-4 blue-box">
+                        <p>Anyone can access your website anytime, anywhere, and on any device. You'll be mobile optimized like nobody's business.</p>
+                    </div> <!-- colsm6 -->
+            </div> <!-- row -->
+
+            <hr class="services-hr">
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4 class="services-header">Easy-to-use CMS</h4>
+                </div>
+                <div class="col-sm-4 blue-box">
+                    <p>You can manage your website easily on your own, anywhere, anytime. You won't have to keep coming back for updates.</p>
+               </div> <!-- colsm6 -->
+            </div> <!-- row -->
+
+            <hr class="services-hr">
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <h4 class="services-header">Social media and SEO</h4>
+                </div>
+                <div class="col-sm-4 blue-box">
+                    <p>We'll connect you with your community through social media and make sure people find your website when they look for you.</p>
+               </div> <!-- colsm6 -->
+            </div> <!-- row -->
+        </div> <!-- container -->
     </section>
 
-    <section id="how-it-works" class="">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h2 class="text-purple text-lowercase section-header">How It Works</h2>
-            <p>HVAC expenses are one of the largest expenses in the hospitality industry. The large capital expenditure needed for current energy-saving products, coupled with their meager savings, makes HVAC efficiency a very low priority for most hotel operators.</p>
-            <p>So the U.S. remains a nation full of hotel rooms that continue to waste energy. ESGNA has developed an innovative solution to this problem. With an actively managed, wireless, non-thermostat, custom-made, energy-management system, hotel operators can leave the management of individual in-room temperatures to our remote-access team of professionals.</p>
-          </div>
-        </div>
-      </div>
 
-      <div class="container">
-        <div class="row">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-                <div class="carousel-inner" role="listbox">
-                  <div class="item active">
-                    <img class="first-slide" 
-                      src="img/slider-1.jpg" alt="First slide">
-                    <div class="container">
-                      <!-- <div class="carousel-caption">
-                        <h3 class="">Example headline.</h3>
-                        <p> Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-                      </div> -->
+    <!-- PORTFOLIO
+    ============================================= -->
+    <section id="portfolio" class="section-wrapper">
+        <div class="container">
+            <div class="col-sm-12 section-header section-header-alt">
+	            <h2>Case Studies</h2>
+	            <p class="lead">Some of my recent projects</p>
+            </div> <!-- colsm12 -->
+            <div class="row">
+                <div class="col-sm-4">
+                	<div class="portfolio-item">
+                		<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    		<img src="assets/img/portfolio/cleaning.jpg" alt="Abbey Road Services" class="img-responsive">
+                    		<div class="caption"><h4>Abbey Road Services</h4></div>
+                    	</a>
                     </div>
-                  </div>
-                  <div class="item">
-                      <img class="first-slide"                     
-                      src="img/slider-2.jpg" alt="First slide">
-                    <div class="container">
-                      <!-- <div class="carousel-caption">
-                        <h3 class="">Example headline.</h3>
-                        <p> Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-                      </div> -->
+                </div> <!-- colsm4 -->
+                <div class="col-sm-4">
+                	<div class="portfolio-item">
+                		<a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    		<img src="assets/img/portfolio/camera.jpg" alt="Excellens Photography" class="img-responsive">
+                    		<div class="caption"><h4>Excellens Photography</h4></div>
+                    	</a>
                     </div>
-                  </div>
-                  <div class="item">
-                      <img class="first-slide" 
-                         src="img/slider-3.jpg" alt="First slide">
-                    <div class="container">
-                      <!-- <div class="carousel-caption">
-                        <h3 class="">Example headline.</h3>
-                        <p> Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-                      </div> -->
+                </div> <!-- colsm4 -->
+                <div class="col-sm-4">
+                	<div class="portfolio-item">
+                		<a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    		<img src="assets/img/portfolio/dog.jpg" alt="FurFocus" class="img-responsive">
+                    		<div class="caption"><h4>FurFocus</h4></div>
+                    	</a>
                     </div>
-                  </div>
-                </div>
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                  <span class="left-arrow" aria-hidden="true">
-                    <img src="img/arrow-left.png" alt="left slider arrow">
-                  </span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                  <span class="right-arrow" aria-hidden="true">
-                    <img src="img/arrow-right.png" alt="right slider arrow">
-                  </span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div><!-- /.carousel -->
-        </div>
-      </div>
+                </div> <!-- colsm4 -->
+            </div> <!-- row -->
+        </div> <!-- container -->
     </section>
 
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="section-wrapper testimonials">
+        <div class="container">
+        	<div class="col-sm-12">
+                <div class="section-header">
+            		<h2>What folks are saying</h2>
+                    <p class="lead">Hear from some of my clients</p>
+                </div>
+        		<ul class="test-list">
+        			<li>
+        				<div class="test-image">
+        					<img src="assets/img/test-1.jpg" alt="A client photo" class="img-responsive img-circle">
+        				</div>
+        				<div class="test-panel">
+        					<blockquote class="test-body test-right-align">
+        						<p>"I wanted a place where I could host my photography sessions, and Bob sat down with me and went over some various layout options. He really took the vision I had and created the perfect space to showcase my work."</p>
+                                <cite class="test-client">Ashley Shaw, Excellens Photography</cite>
+        					</blockquote>
+        				</div>
+        			</li>
+
+                    <li>
+                        <div class="test-image">
+                            <img src="assets/img/test-2.jpg" alt="A client photo" class="img-responsive img-circle">
+                        </div>
+                        <div class="test-panel">
+                            <blockquote class="test-body test-left-align">
+                                <p>"I recently stumbled across a website that Mr. O'Brien created and knew that he was the developer for me! He was a true professional; the end product was exactly what I wanted, and it was on time and under budget!"</p>
+                                <cite class="test-client">Karen Warrenkowski, Abbey Road Services</cite>
+                            </blockquote>
+                                
+                        </div>
+                    </li>
+
+                   <li>
+                        <div class="test-image">
+                            <img src="assets/img/test-4.jpg" alt="A client photo" class="img-responsive img-circle">
+                        </div>
+                        <div class="test-panel">
+                            <blockquote class="test-body test-right-align">
+                                <p>Bob has done a great job designing a custom theme for me and migrating my website to a custom Wordpress installation. He is a complete professional and I couldn't be happier with the outcome. </p>
+                                <cite class="test-client">Jordan Blum, EIC, The Bookends Review</cite>
+                            </blockquote>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="test-image">
+                            <h4 class="test-list-callout">You 
+                            <br>could 
+                            <br>be 
+                            <br>next!</h4>
+                        </div>
+                    </li>
 
 
-    <section id="benefits" class="bg-purple">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h2 class="section-header">benefits of our eha s-2000 system</h2>
-          </div>
+        		</ul>
+
+        	</div>
         </div>
-
-        <div class="row">
-
-          <div class="col-md-4 col-sm-6 text-center">
-            <img src="img/icon-graph.png" alt="graph icon">
-            <p>40-60% savings heating & cooling guestrooms</p>
-          </div>
-          <div class="col-md-4 col-sm-6 text-center">
-            <img src="img/icon-check.png" alt="checkmark icon">
-            <p>Seamless integration with HVAC</p>
-          </div>
-          <div class="col-md-4 text-center">
-            <img src="img/icon-thing.png" alt="wireless icon">
-            <p>Wireless system </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-6 text-center">
-            <img src="img/icon-clock.png" alt="clock icon">
-            <p>Quick installation during regular housekeeping sessions</p>
-          </div>
-          <div class="col-md-4 col-sm-6 text-center">
-            <img src="img/icon-light.png" alt="lightbulb icon">
-            <p>Expandable to control lights and other guestroom features</p>
-          </div>
-          <div class="col-md-4 col-sm-6 text-center">
-            <img src="img/icon-magnify.png" alt="magnifying glass icon">
-            <p>24/7 remote monitoring</p>
-          </div>
-  
-        </div>
-      </div>
     </section>
 
-
-    <section id="about-us" class="bg-gray">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h2 class="section-header">about us</h2>
-          </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-              <p>We are a United States based company who, along with our partners, have accumulated experience of dozens of years in the hospitality sector.  We specialize in temperature and comfort automation in hotel guestrooms.  Our innovative system produces a significant savings in energy consumption while maintaining and / or increasing guest comfort through temperature control.</p>
-              <p>With our partners we design, produce, install and monitor the only energy savings system that seamlessly integrates with existing HVAC systems and provides a pleasant temperature while reducing energy consumption and increasing the bottom line of the hotel.</p>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="bio-image">
-                <img src="img/susan-bio.jpg" class="img-circle green-border" alt="">
-              </div>
-
-              <h3 class="text-purple">Susan Miron - CEO</h3>
-              <h5 class="text-bold text-uppercase subtext text-non-fancy">What's App: +1 (860) 836-0301</h5>
-              <p>Susan spent many years in the private security sector.  As a project manager for multimillion-dollar companies, she worked closely with maintenance, engineering and environmental services personnel.  During that time, she learned about HVAC systems and their vulnerability and inefficiency of those systems.  After leaving the private security field, Susan took what she learned about HVAC systems and went to work with a designer who had a solution to the inefficiency of HVAC systems in the hospitality sector.</p>
-            </div>
-            <div class="col-sm-6">
-              <div class="bio-image">
-                <img src="img/erik-bio.jpg" class="img-circle green-border" alt="">
-              </div>
-              <h3 class="text-purple">Erik Hansen - Executive Director</h3>
-              <h5 class="text-bold text-uppercase subtext text-non-fancy">What's App: +1 (860) 214-1943</h5>
-              <p>Susan met Erik when they both worked for a large international security company.  Erik also has a solid entrepreneurial background:  Intact, LLC, is his third successful company.  Susan chose to partner with Erik based on his past success along with his technical and creative abilities.  He is enthusiastic about assisting hotels to become more “green” and helping them to save money by using less energy.</p>
-            </div>
-          </div>
-      </div>
-    </section>
-
-
-    <section id="contact" class="bg-purple">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <h2 class="text-lowercase section-header">Contact Us</h2>
-            <p>Interested in learning more about our innovative product? Send us a message and we’ll get back to you as soon as possible.</p>
-          </div>
-        </div>
-
-        
-        <form name="sentMessage" id="contactForm" class="form-wrapper" novalidate>
-          <input type="hidden" name="subject" value="Website Inquiry" /> 
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="form-group">
-                  <label for="name">Name*</label>
-                  <input type="text" class="form-control" id="name"  name="name" required data-validation-required-message="Please enter your name.">
-                  <p class="help-block text-danger"></p>
-
-                </div>
-            </div>
-
-            <div class="col-sm-6">
-              <div class="form-group">
-                  <label for="email">E-mail*</label>
-                  <input type="email" class="form-control" id="email" name="email" required  data-validation-required-message="Please enter your email.">
-                  <p class="help-block text-danger"></p>
-                </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="form-group">
-                  <label for="message">Message*</label>
-                  <textarea class="form-control" id="message" name="message" rows="10" required  data-validation-required-message="Please enter a message."></textarea> 
-                  <p class="help-block text-danger"></p>
-                </div>
-            </div> 
-          </div>
-   
-          <div class="row">
-            <div class="col-sm-12 text-center">
-              <div id="success"></div>
-              <button type="submit" class="btn btn-submit">get in touch</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </section>
-
-
-    <footer class="bg-gray">
-      <img src="img/logo.png" class="logo" alt="">
-      <div class="contact-info">
-        <p>Intact, LLC</p>
-        <p>777 Brickwell Avenue</p>
-        <p>Suite 500-9550</p>
-        <p>Miami, FL 33131</p>
-        <p>USA</p>
-      </div>
-        <!-- <p>&copy; Company 2015</p> -->
-    </footer>
-           
+    <!-- CONTACT
+    ===================================================== -->
     
-    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <section id="contact-us" class="section-wrapper">
+        <div class="container">
+            <div class="col-md-3">
+                <p class="big-text">Let's work together.</p>
+            </div> <!-- col sm 12 -->                 
+			<div class="col-md-9">
+				<form name="sentMessage" id="contactForm" class="form-wrapper" novalidate>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Name *</label>
+                                <input type="text" class="form-control input-lg" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="form-group">
+                                <label>Email Address *</label>
+                                <input type="email" class="form-control input-lg" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                          </div>
+                          <div class="col-sm-12">
+                            <div class="form-group">
+                                <label>Phone Number</label>
+                                <input type="tel" class="form-control input-lg" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label>Message *</label>
+                                <textarea class="form-control input-lg" rows="5" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center">
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-lg btn-rev">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+			</div>
+        </div><!--container-->
+    </section><!--contact-us-->
 
-        <script src="js/vendor/bootstrap.min.js"></script>
-
-        <script src="js/main.js"></script>
-
-        <!-- Mail Form -->
-        <script src="js/jqBootstrapValidation.js"></script>
-        <script src="js/contact_me.js"></script>
-
-    </body>
-</html>
 
 
+   <!-- PORTFOLIO MODAL  -->
+   <!-- ITEM 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="section-header"><a href="http://abbeyroadservices.com" target="_blank">Abbey Road Services</a></h2>
+                                
+                                <div class="col-sm-4">
+                                    <i class="fa fa-bar-chart port-icon"></i>
+                                    <h4 class="port-modal-header">Challenge</h4>
+                                    <p>Abbey Road wanted a simple platform to advertise their cleaning services and to connect to potential customers. It was important that the website be easy to maintain and update with new information, as well as connect with their target audience through social media.</p>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <i class="fa fa-trophy port-icon"></i>
+                                    <h4 class="port-modal-header">Solution</h4>
+                                    <p>After meeting with the client, we determined that a landing page would most closely fit her needs. I designed and developed a single page layout and developed it into a custom WordPress theme. I developed a social media presence for the client and implemented basic SEO.</p>
+
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <i class="fa fa-thumb-tack port-icon"></i>
+                                    <h4 class="port-modal-header">Project Details</h4>
+                                    <ul class="modal-list">
+                                        <li>Landing Page</li>
+                                        <li>Wordpress Theme</li>
+                                        <li>Social Media and SEO</li>
+                                    </ul>                                       
+                                </div>
+
+                                <div class="col-sm-12">
+                                    <img src="assets/img/portfolio/abbeyroad.jpg" alt="Abbey Road Services' Website" class="img-responsive full-img">
+                                    <button type="button" class="btn btn-rev" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ITEM 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="section-header"><a href="http://excellensphoto.com" target="_blank">Excellens Photography</a></h2>
+                                
+                                <div class="col-sm-4">
+                                    <i class="fa fa-bar-chart port-icon"></i>
+                                    <h4 class="port-modal-header">Challenge</h4>
+                                    <p>Excellens came to me looking for a platform that would allow  them to showcase their as well as connect them with potential clients. It was essential that the platform contain a blog feature, but also a section to showcase selected work. The client desired something simple and functional, but did not wish to sacrifice design quality.</p>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <i class="fa fa-trophy port-icon"></i>
+                                    <h4 class="port-modal-header">Solution</h4>
+                                    <p>I took a minimalist design approach for this project. With plenty of visual content, it was important for the design to accentuate, but not distract, from the photographs.</p>
+
+                                    <p>The end result was a custom WordPress theme with a minimalist feel.</p>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <i class="fa fa-thumb-tack port-icon"></i>
+                                    <h4 class="port-modal-header">Project Details</h4>
+                                    <ul class="modal-list">
+                                        <li>Minimalist Design</li>
+                                        <li>Wordpress Theme</li>
+                                        <li>Social Media and SEO</li>
+                                    </ul>                                       
+                                </div>
+
+                                <div class="col-sm-12">
+                                    
+                                    <img src="assets/img/portfolio/excellens1.jpg" alt="Excellens Photography's Website" class="img-responsive full-img">
+                                    <img src="assets/img/portfolio/excellens2.jpg" alt="Excellens Photography's Website" class="img-responsive full-img">
+                                    <img src="assets/img/portfolio/excellens3.jpg" alt="Excellens Photography's Website" class="img-responsive full-img">
+                                    <img src="assets/img/portfolio/excellens4.jpg" alt="Excellens Photography's Website" class="img-responsive full-img">
+
+
+                                    <button type="button" class="btn btn-rev" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- ITEM 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="section-header"><a href="http://furfocus.com" target="_blank">FurFocus</a></h2>
+                                
+                                <div class="col-sm-4">
+                                    <i class="fa fa-bar-chart port-icon"></i>
+                                    <h4 class="port-modal-header">Challenge</h4>
+                                    <p>Furfocus approached me without any web presence at all. They had already hired a designer and were looking for someone to develop the site based on mock-ups.  </p>
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <i class="fa fa-trophy port-icon"></i>
+                                    <h4 class="port-modal-header">Solution</h4>
+                                    <p>I coded their website based on the mock-ups provided, purchased a domain name on their behalf, set up their web host and created social media accounts for them. I also set up a Google Analytics account for them.</p>
+
+                                </div>
+
+                                <div class="col-sm-4">
+                                    <i class="fa fa-thumb-tack port-icon"></i>
+                                    <h4 class="port-modal-header">Project Details</h4>
+                                    <ul class="modal-list">
+                                        <li>Front-end Development</li>
+                                        <li>Hosting Set-up</li>
+                                        <li>Social Media and Google Analytics</li>
+                                    </ul>                                       
+                                </div>
+                                <div class="col-sm-12">
+                                    <img src="assets/img/portfolio/furfocus1.jpg" alt="FurFocus's Website" class="img-responsive full-img">
+                                    <img src="assets/img/portfolio/furfocus2.jpg" alt="FurFocus's Website" class="img-responsive full-img">
+                                    <img src="assets/img/portfolio/furfocus3.jpg" alt="FurFocus's Website" class="img-responsive full-img">
+                                    <img src="assets/img/portfolio/furfocus4.jpg" alt="FurFocus's Website" class="img-responsive full-img">
+                                    <button type="button" class="btn btn-rev" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER
+    ========================================================== -->
+    <footer>
+        <p>&copy; 2016 Bob O'Brien, Inc. All rights reserved.</p>
+    </footer>
+	<!--JS
+    ===========================================================-->
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Easing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <!-- Sticky Nav -->
+    <script src="assets/js/jquery.sticky.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- Preloader -->
+    <script src="assets/js/preloader.js"></script>
+    <!-- Mail Form -->
+    <script src="assets/js/jqBootstrapValidation.js"></script>
+    <script src="assets/js/contact_me.js"></script>
+
+
+</body>
